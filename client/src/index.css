@@ -1,0 +1,17 @@
+
+@font-face {
+    font-family: 'Anto';
+    src: url('./assets/Fonts/Anton-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Assistant';
+    src: url('./assets/Fonts/Assistant-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'LilitaOne';
+    src: url('./assets/Fonts/LilitaOne-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url('./assets/Fonts/SpaceGrotesk-VariableFont_wght.ttf') format('truetype');
+}

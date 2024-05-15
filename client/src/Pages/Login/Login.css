@@ -1,0 +1,68 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 120px;
+    width: 100%;
+}
+.login h1{
+    font-family: 'LilitaOne';
+    text-decoration: underline #7d29b4;
+    font-size: 6em;
+}
+.login .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px 30px;
+    width: 40%;
+    background: linear-gradient(to bottom, #7d29b4 10%,#7d29b4 20%, #1b042b 70%);
+}
+.login .form form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 5px;
+    width: 100%;
+}
+.login .form img{
+    width: 200px;
+}
+.login .form form input{
+    padding: 10px 10px;
+    outline: none;
+}
+.login .form form .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.login .form form .links .link{
+    text-decoration: none;
+    color: white;
+    font-size: x-small;
+    font-style: italic;   
+}
+.login .form form .links .link:hover{
+    text-decoration: 1px underline white;
+}
+.login .form form button{
+    padding: 10px;
+    background-color: #5892d5;
+    background: linear-gradient(to top, #0150aa, #5892d5);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+    font-family: 'LilitaOne';
+    letter-spacing: 0.02em;
+}
+.login .form form button:hover{
+    background: linear-gradient(to bottom, #0150aa, #5892d5);
+    letter-spacing: 0.04em;
+}

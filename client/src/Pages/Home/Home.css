@@ -1,0 +1,379 @@
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #7d29b4;
+    background-image: linear-gradient(358deg, #000083, #3a00aa, #7d29b4, #7d29b4);
+    width: 100%;
+    height: 90%;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    margin-top: 20px;
+}
+
+nav .logo img{
+    width: 150px;
+    height: 50px;
+}
+nav .links ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    gap: 40px;
+}
+
+nav .links ul li, nav .links ul li a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: color ease-in-out 0.2s;
+    font-family: 'Assistant';
+    font-size: large;
+    font-weight: bold;
+    width: max-content;
+}
+nav .links ul li:hover, nav .links ul li a:hover{
+    cursor: pointer;
+    color: #5892d5;
+}
+nav .links button{
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 25px;
+    color: #7d29b4;
+    background-color: white;
+    transition: box-shadow ease-out 0.3s;
+    font-family: 'Assistant';
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+}
+nav .links button:hover{
+    box-shadow: 0px 0px 15px #bdd0eb;
+    transform: scale(1.1);
+    letter-spacing: 0.03em;
+}
+
+.landing{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    margin: 50px 100px;
+}
+.landing h1{
+    margin-inline: 20px;
+   color: white;
+   font-size: 60px;
+   text-align: center;
+   font-family: 'LilitaOne';
+   letter-spacing: 0.03em;
+   font-weight: bold;
+}
+.landing h1 span{
+    color: #5892d5;
+    text-transform: uppercase;
+    font-family: 'SpaceGrotesk';
+    /* background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); */
+}
+.landing h1 .exclam{
+    font-family: 'Anto';
+}
+.landing .buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+}
+.landing .buttons button{
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 24px;
+    font-family: 'Assistant';
+    font-size: large;
+    font-weight: bold;
+    transition: box-shadow ease-out 0.3s;
+    cursor: pointer;
+}
+.landing .buttons .Login{
+    color: #7d29b4;
+    text-decoration: none;
+}
+.landing .buttons .Login:hover{
+    box-shadow: 0px 0px 15px #bdd0eb;
+    transform: scale(1.1);
+    letter-spacing: 0.03em;
+}
+.landing .buttons .Signup{
+    background-color: #5892d5;
+    color: white;
+    text-decoration: none;
+}
+.landing .buttons .Signup:hover{
+    box-shadow: 0px 0px 15px #5892d5;
+    transform: scale(1.1);
+    letter-spacing: 0.03em;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+main .one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background-color: #5892d5;
+    background-image: linear-gradient(358deg, #03051a, #020d35, #022135, #040844);
+    width: 80%;
+    padding: 80px 60px;
+    color: white;
+    border-radius: 40px;
+    z-index: 10;
+}
+main .one .facts{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+main .one .facts div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 25%;
+    text-align: center;
+}
+main .one .facts div h3{
+    font-weight: bold;
+    font-size: 34px;
+    font-family: 'LilitaOne';
+    letter-spacing: 0.2em;
+    text-decoration: underline #7d29b4 3px;
+}
+main .one .facts div p{
+    font-size: 18px;
+}
+main .one .img1{
+    width: auto;
+    height: 400px;
+}
+main .two{
+    display: flex;
+    flex-direction: column;
+    /* align-self: flex-center; */
+    align-items: center;
+    gap: 40px;
+    background-color: #5892d5;
+    background-image: linear-gradient(358deg, #4188da, #186ccc, #1070dd ,#0254b3);
+    width: 80%;
+    padding: 80px 60px;
+    color: white;
+    border-radius: 80px;
+    z-index: 10;
+}
+main .two h1{
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'LilitaOne';
+    letter-spacing: 0.03em;
+}
+main .two article{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding-inline: 170px;
+}
+main .two article h2{
+    font-size: 30px;
+    text-decoration: underline #7d29b4 3px;
+}
+main .two article p{
+    font-family: 'SpaceGrotesk';
+    font-size: 1.1em;
+    text-align: center;
+}
+main .three{
+    display: flex;
+    flex-direction: column;
+    /* align-self: flex-end; */
+    align-items: center;
+    gap: 40px;
+    background-color: #5892d5;
+    background-image: linear-gradient(358deg, #8131b6, #7727ac, #6f19a8 ,#510385);
+    width: 65%;
+    padding: 80px 60px;
+    color: white;
+    border-radius: 30px;
+    z-index: 10;
+}
+main .three h1{
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'LilitaOne';
+    letter-spacing: 0.03em;
+}
+main .three span{
+    color: #5892d5;
+}
+main .three article{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+main .three article h2{
+    font-size: 30px;
+    text-decoration: underline #5892d5 3px;
+    text-align: center;
+}
+main .three article p{
+    font-family: 'SpaceGrotesk';
+    font-size: 1.1em;
+    text-align: center;
+}
+main .four{
+    display: flex;
+    flex-direction: column;
+    /* align-self: flex-start; */
+    align-items: center;
+    gap: 40px;
+    background-color: #5892d5;
+    background-image: linear-gradient(358deg, #0b104e, #091b5e, #0d5c91, #077eee);
+    width: 80%;
+    padding: 80px 60px;
+    color: white;
+    border-radius: 100px;
+    z-index: 10;
+}
+main .four h1{
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: 'LilitaOne';
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+main .four span{
+    color: #5892d5;
+}
+main .four h3{
+    font-size: 1.5em;
+    text-align: center;
+}
+main .four .comments{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background: #4E719538;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    padding: 24px 23px;
+    border-radius: 12px;
+    border: 1px solid #5892d5b7;
+}
+main .four .comments .star{
+    display: flex;
+    display: row;
+    gap: 8px;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+main .four .comments p{
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-family: 'Assistant';
+}
+main .four .comments .star p{
+    font-size: x-large;
+    text-align: center;
+    margin-top: 10px;
+}
+.slider{
+    width: 70%;
+    padding-inline: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+main .five{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    width: 70%;
+    padding: 80px 60px;
+    color: white;
+    z-index: 10;
+}
+main .five div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left, #7d29b4, #1b042b) ;
+    gap: 200px;
+    border: 1px solid white;
+    border-radius: 40px;
+    padding: 15px 25px;
+}
+main .five div p{
+    font-size: 30px;
+}
+main .five div button{
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 25px;
+    color: #7d29b4;
+    background-color: white;
+    transition: box-shadow ease-out 0.3s;
+    font-family: 'Assistant';
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+main .five div button:hover{
+    box-shadow: 0px 0px 15px #bdd0eb;
+    transform: scale(1.1);
+    letter-spacing: 0.03em;
+}
+main .five .start{
+    outline: none;
+    border: none;
+    border-radius: 35px;
+    padding: 15px 25px;
+    color: white;
+    background: linear-gradient(to right, #0099ff, rgb(88, 146, 213));
+    transition: box-shadow ease-out 0.3s;
+    font-family: 'Assistant';
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+main .five .start:hover{
+    transform: scale(1.1);
+}

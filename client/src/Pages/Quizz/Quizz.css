@@ -1,0 +1,69 @@
+.Quizz{
+    margin-block: 70px;
+    z-index: 10;
+}
+.Quizz h1{
+    z-index: 30;
+    font-size: 6em;
+    font-family: 'LilitaOne';
+    text-decoration: underline #7d29b4;
+}
+.main--startPage{
+    text-align: center;
+}
+.main--startPage p{
+    margin-bottom: 35px;
+}
+.question--topic{
+    margin: 30px;
+}
+.question{
+    font-size: 1.4em;
+    font-family: 'Anto';
+    margin-bottom: 10px;
+}
+.answers--list{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    z-index: 10;
+}
+.answers--list li{
+    border: 2px solid black;
+    min-width: 100px;
+    border-radius: 20px;
+    padding: 5px 25px;
+    font-size: 1.1em;
+    cursor: pointer;
+    text-align: center;
+}
+
+.main--score{
+    font-size: 1.4em;
+    font-weight: bolder;
+    color: black;
+}
+.main--button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.button--check{
+    padding: 10px 40px;
+    border-radius: 10px;
+    background-color: #7d29b4;
+    border: none;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bolder;
+    font-family: 'SpaceGrotesk';
+    cursor: pointer;
+}
+.button--check:hover{
+    background-color: #7d29b4;
+    box-shadow: 0px 0px 10px #7d29b4;
+    cursor: pointer;
+}

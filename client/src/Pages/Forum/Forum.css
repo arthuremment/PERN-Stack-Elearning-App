@@ -1,0 +1,87 @@
+.forum{
+    z-index: 30;
+    margin: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.forum .header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.forum .header h1{
+    z-index: 30;
+    font-size: 4em;
+    font-family: 'LilitaOne';
+    text-decoration: underline #7d29b4;
+}
+.forum .header p{
+    text-align: center;
+}
+.forum .area{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 40px;
+    border: 2px solid #7d29b4;
+    width: 60%;
+    height: 800px;
+}
+.forum .area form input{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    font-size: larger;
+    border: 2px solid #8ab1e0;
+}
+.forum .area .messages{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+.forum .area .message{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #8ab1e0;
+    background: linear-gradient(to bottom left, #7d29b4, #cda5e7 70%) ;
+    width: fit-content;
+    max-width: 60%;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: right;
+    font-family: 'Assistant';
+}
+.forum .area .message span{
+    font-weight: bold;
+}
+.forum .area .message > div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.forum .area .message .date{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: flex-end;
+}
+.forum .area .message .date p{
+    font-size: 10px;
+    font-style: italic;
+}
+.forum .area form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.forum .area form button{
+    padding: 10px 20px;
+    align-self: flex-end;
+    background: #7d29b4;
+    font-weight: bold;
+    cursor: pointer;
+}

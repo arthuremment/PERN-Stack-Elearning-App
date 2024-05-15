@@ -1,0 +1,41 @@
+.courses{
+    z-index: 30;
+    margin: 100px 0px;
+}
+.courses h1{
+    z-index: 30;
+    font-size: 4em;
+    font-family: 'LilitaOne';
+    text-decoration: underline #7d29b4;
+}
+.courses .grid{
+    margin-top: 65px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.courses .card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 30%;
+    padding: 20px;
+    gap: 10px;
+    background: linear-gradient(white, white) 50% 50%/calc(100% - 2px) calc(100% - 2px) no-repeat,
+        linear-gradient(67deg, #5892d5 0%, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0) 30%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0) 55%, rgba(252, 252, 252, 0) 73%, rgba(0, 0, 0, 0) 77%, #5892d5 91%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.courses .card h2{
+    font-family: 'Anto';
+    text-align: center;
+    text-decoration: underline #7d29b4;
+}
+.courses .card P{
+    font-family: 'Assistant';
+}

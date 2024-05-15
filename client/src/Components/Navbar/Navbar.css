@@ -1,0 +1,57 @@
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    z-index: 30;
+    margin-top: 40px;
+}
+nav .navbar{
+    z-index: 50;
+    /* position: fixed; */
+    top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px 10px;
+    border-radius: 45px;
+    border: 1px solid #5892d5;
+    width: 90%;
+    background-color: #7d29b4;
+    background: linear-gradient(to right,#7d29b4 40%, #1b042b );
+}
+nav .navbar .log{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+nav .navbar .log p{
+    font-size: 1.5em;
+    background: -webkit-linear-gradient(#73a7e2, #1b6fcf);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'LilitaOne';
+}
+nav .navbar .log .span{
+    color: white;
+    background: -webkit-linear-gradient(white, white);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.navbar img{
+    width: 150px;
+}
+nav .navbar .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+nav .navbar .links .navbtn{
+    padding: 7px 10px;
+}
